@@ -2,13 +2,23 @@
 
 Starter boilerplate template for web apps
 
-**Setup**
+### Setup
+
+1. Clone this repo
+
+```sh
+$ git clone https://github.com/pfeilbr/web-app-boilerplate.git
+```
+
+2. Change `package.json` `name`, `version`, etc. for your project
+
+3. Install dependencies
 
 ```sh
 $ npm install
 ```
 
-**Develop with Livereload**
+### Develop with Livereload
 
 ```sh
 $ npm run dev
@@ -18,7 +28,7 @@ $ npm run dev
   > * [watchify](https://github.com/substack/watchify) to rebuild `app.js` on file change and livereloads in browser
   > * [Browsersync](https://www.browsersync.io/) to reload browser when server or client code changes
 
-**Test**  
+### Test
 
 [mocha](https://mochajs.org/) tests with [es6 babel](https://babeljs.io/docs/setup/#mocha) support
 
@@ -28,13 +38,15 @@ Tests are located in `test/`
 $ npm test
 ```
 
-**Build**
+### Build
 
 ```sh
 $ npm run build
 ```
 
-**Files**
+> client side bundle is written to `public/js/bundle.js`
+
+### Files
 
 * `server.js` - express server
 * `app.js` - client side app
