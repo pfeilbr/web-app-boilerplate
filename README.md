@@ -10,7 +10,7 @@ Starter boilerplate template for web apps
 $ git clone https://github.com/pfeilbr/web-app-boilerplate.git
 ```
 
-2. Change `package.json` `name`, `version`, etc. for your project
+2. Change `package.json` properties (`name`, `version`, etc.) for your project
 
 3. Install dependencies
 
@@ -52,7 +52,7 @@ $ npm run build
 * `app.js` - client side app
 * `config/index.js` - config data
 
-# TODO
+### TODO
 
 * remove hard coded sleep for browsersync start.
   * poll every second for port 3000 in use, when it is, launch browsersync
