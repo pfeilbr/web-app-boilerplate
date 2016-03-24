@@ -14,9 +14,9 @@ $ npm install
 $ npm run dev
 ```
 
-  > * nodemon to monitor and reload `server.js` changes
-  > * watchify to rebuild `app.js` on file change and livereloads in browser
-  > * live-server to reload browser when server or client code changes
+  > * [nodemon](https://github.com/remy/nodemon) to monitor and reload `server.js` changes
+  > * [watchify](https://github.com/substack/watchify) to rebuild `app.js` on file change and livereloads in browser
+  > * [Browsersync](https://www.browsersync.io/) to reload browser when server or client code changes
 
 **Test**  
 
@@ -42,4 +42,5 @@ $ npm run build
 
 # TODO
 
-* integrate [Browsersync](https://www.browsersync.io/) for Livereload
+* remove hard coded sleep for browsersync start.
+  * poll every second for port 3000 in use, when it is, launch browsersync
